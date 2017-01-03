@@ -146,3 +146,7 @@ tidyDatasetAVG <- tidyDataset %>%
 write.csv(tidyDataset, file = "tidyDataset.csv")
 # Created csv (tidy data set AVG) in diretory
 write.csv(tidyDatasetAVG, file = "tidyDatasetAVG.csv")
+
+
+# For assignment export tidyDatasetAVG as .txt
+write.table(tidyDatasetAVG, file = "tidyDatasetAVG.txt", row.names = FALSE)
