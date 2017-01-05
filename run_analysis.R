@@ -147,9 +147,5 @@ write.csv(tidyDataset, file = "tidyDataset.csv")
 # Created csv (tidy data set AVG) in diretory
 write.csv(tidyDatasetAVG, file = "tidyDatasetAVG.csv")
 
-<<<<<<< HEAD
+# final output .txt for Coursera submission
 write.table(tidyDatasetAVG, file = "tidyDatasetAVG.txt", row.name = FALSE)
-=======
-# For assignment export tidyDatasetAVG as .txt
-write.table(tidyDatasetAVG, file = "tidyDatasetAVG.txt", row.names = FALSE)
->>>>>>> master
